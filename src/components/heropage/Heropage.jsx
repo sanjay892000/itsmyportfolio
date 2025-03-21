@@ -1,12 +1,13 @@
 import React from 'react'
 import './heropage.css'
 import myimage from '../../image/myimg.jpeg'
+import frame from '../../image/userframe.png'
 import { NavLink } from 'react-router-dom'
 function Heropage() {
   return (
     <div id='main-section'>
       <aside className="home-image">
-        <img src={myimage} alt=""/>
+        <img src={myimage} alt="loading"/>
       </aside>
       <article className='home-about'>
         <h1>I'm Sanjay Singh</h1>
