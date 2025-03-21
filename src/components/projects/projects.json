@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1001,
+        "name": "HTML & CSS",
+        "description": "A project focused on elegant layouts and responsive design using only HTML and CSS.",
+        "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/html-icon_juhnij.png",
+        "project":[
+            {
+                "projectid": 1000001,
+                "name": "a basic simple page",
+                "description": "Grandma's Secret Apple Pie page can be styled using the margin, padding, and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/ygo7mudhysdvhfrkb2aw.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/page",
+                "live_link":"https://itsbasicpage.netlify.app/"
+            },{
+                "projectid": 1000002,
+                "name": "profile page",
+                "description": "profile page can be styled using the margin, padding, display and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/p3sljmcvctbt9ieuqomr.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/portfolio_page",
+                "live_link":"https://itsprofilepage.netlify.app/"
+            },{
+                "projectid": 1000003,
+                "name": "parallax website",
+                "description": "a simple parallax website can be styled using the margin, padding, and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/uzumraxhenq7vyg6wofj.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/parallax_website",
+                "live_link":"https://parallaxwebht.netlify.app/"
+            },{
+                "projectid": 1000004,
+                "name": "landing page",
+                "description": "a simple landing page can be styled using the margin, padding, display and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/mj213nllq1h7qgqfns45.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/designing_landing_page",
+                "live_link":"https://itslandingpage.netlify.app/"
+            },{
+                "projectid": 1000005,
+                "name": "business page",
+                "description": "a small business page can be styled using CSS properties to create a clean and responsive design.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/qjkwjyn0fdovljizovfk.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/small_business_homepage",
+                "live_link":"https://itsbusinesspage.netlify.app/"
+            },{
+                "projectid": 1000006,
+                "name": "restaurant page",
+                "description": "Most Popular restaurant in the world",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/vwwccbn03qifzebrtqwo.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/restaurant_template",
+                "live_link":"https://itsmyrestaurantpage.netlify.app/"
+            },{
+                "projectid": 1000007,
+                "name": "hotel page",
+                "description": "Most Popular hotel in the world.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/czjdtdlowbh7gdjcmfpz.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/hotel_template",
+                "live_link":"https://itsmyhotelpage.netlify.app/"
+            },{
+                "projectid": 1000008,
+                "name": "sidebarmenue",
+                "description": "A simple sidebarmenue.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/kiwxu3wcluonfp582lrv.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/sidebarmenue",
+                "live_link":"https://itssidebar.netlify.app/"
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "name": "javaScript",
+        "description": "A dynamic web project powered by JavaScript, delivering interactive features and seamless user experiences.",
+        "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/js-icon_cudtje.png",
+        "project":[
+            {
+               
+            },{}
+        ]
+    },
+    {
+        "id": 1003,
+        "name": "React",
+        "description": "A modern React project showcasing reusable components, state management, and seamless UI updates.",
+        "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/react-icon_pfsnnt.png",
+        "project":[
+            {},{}
+        ]
+    },
+    {
+        "id": 1004,
+        "name": "Node",
+        "description": "Built with Node.js to handle data processing, API requests, and real-time server communication.",
+        "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/nodejs-logo_ixnjnm.png",
+        "project":[
+            {},{}
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+.subproject-box{
+    color: white;
+}
+
+.subproject-card{
+    width: 30%;
+    color: var(--textcolor);
+    background-color: var(--bggraytransparent);
+    border: 1px solid var(--bggray);
+    text-align: center;
+    border-radius: 10px;
+}
+.subproject-image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    &:hover .previewbtn{
+        transform:scale(1) translateX(0px) rotateY(0deg);
+    }
+}
+.previewbtn{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bggraytransparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(0.8) translateX(-100px) rotateY(90deg);
+    transition: all 0.2s linear;
+}
+.previewbtn>a{
+    padding: 8px 15px;
+    background-color: var(--bgorange);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.subproject-image>img{
+    height: 150px;
+    width:100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px 10px 0px 0px;
+}
+.subproject-info{
+    padding: 10px 20px;
+}
+.subproject-info>h1{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.subproject-info>p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .subproject-card{
+        width: 40%;
+    }
+    .subproject-info{
+        padding: 10px 20px;
+    }
+    .subproject-info>h1{
+        font-size: 16px;
+    }
+    .subproject-info>p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 640px) {
+
+    .subproject-card{
+        width: 100%;
+    }
+    .subproject-info{
+        padding: 10px 20px;
+    }
+    .subproject-info>h1{
+        font-size: 14px;
+    }
+    .subproject-info>p{
+        font-size: 12px;
+    }
+}
