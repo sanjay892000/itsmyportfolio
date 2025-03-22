@@ -66,7 +66,7 @@
     border-radius: 50%;
     overflow: hidden;
     background-color: var(--bggray);
-
+    cursor: pointer;
     &:hover {
         background-color: var(--bgorange);
     }

@@ -10,7 +10,7 @@ import ProjectDetails from './components/projects/projectdetails/ProjectDetails.
 import ThemeProvider from './contextapi/ThemeProvider.jsx';
 import Notes from './components/notes/Notes.jsx';
 import Contact from './components/contactus/Contact.jsx';
-import Reviews from './components/feedback/Reviews.jsx';
+import Reviews from './components/reviews/Reviews.jsx';
 import ErrorPage from './components/errorpage/ErrorPage.jsx';
 
 
