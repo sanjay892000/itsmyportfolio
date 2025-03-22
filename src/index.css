@@ -7,6 +7,7 @@
   --bggraytransparent:rgba(28, 28, 28, 0.523);
   --textcolor:white;
   --bgmodal:rgb(18, 18, 18);
+  --lightblack:rgb(36, 36, 36);
 }
 .light {
   --lightgray: rgb(81, 81, 81);
@@ -15,7 +16,9 @@
   --bggray:rgb(224, 224, 224);
   --bgorange:rgb(254, 195, 0);
   --bggraytransparent:rgba(201, 201, 201, 0.5);
-  --textcolor:black
+  --textcolor:rgb(0, 0, 0);
+  --bgmodal:rgb(224, 224, 224);
+  --lightblack:rgb(247, 247, 247);
 }
 
 

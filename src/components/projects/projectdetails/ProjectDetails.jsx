@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './projectdetails.css'
 import { useParams } from 'react-router-dom';
 import allProject from '../projects.json'
+import ProjectDetailsCard from './ProjectDetailsCard';
 function ProjectDetails() {
   const [projectName, setProjectName] = useState('my')
   const { id } = useParams()
@@ -29,16 +30,7 @@ function ProjectDetails() {
               <>
                 {project.project.map((element, i) => {
                   return (
-                    <div key={i} className="subproject-card">
-                      <div className="subproject-image">
-                        <img src={element.image} alt="loading..." />
-                        <div className='previewbtn'><a href={element.live_link}>Preview</a></div>
-                      </div>
-                      <div className="subproject-info">
-                        <h1>{element.name}</h1>
-                        <p>{element.description}</p>
-                      </div>
-                    </div>
+                    <ProjectDetailsCard key={i} name={element.name} description={element.description} image={element.image} livelink={element.live_link}/>
                   )
                 })}
               </>

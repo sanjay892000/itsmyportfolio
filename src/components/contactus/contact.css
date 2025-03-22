@@ -4,6 +4,7 @@
     background-color: var(--bgblack);
     max-width: 1500px;
     margin: 0px auto;
+    margin-bottom: 80px;
 }
 
 .contact-container {
@@ -96,9 +97,9 @@
     border-radius: 25px;
     border: none;
     background-color: var(--bggray);
-
-    &:focus {
-        outline: 1px solid var(--bgorange);
+color: var(--textcolor);
+&:focus {
+    outline: 1px solid var(--bgorange);
     }
 }
 
@@ -114,6 +115,7 @@
     border-radius: 25px;
     border: none;
     background-color: var(--bggray);
+    color: var(--textcolor);
 
     &:focus {
         outline: 1px solid var(--bgorange);

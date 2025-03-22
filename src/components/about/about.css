@@ -4,6 +4,7 @@
     background-color: var(--bgblack);
     max-width: 1500px;
     margin: 0px auto;
+    margin-bottom: 50px;
 }
 
 .about-title {

@@ -142,7 +142,8 @@
         background-image: linear-gradient(var(--bgblack), var(--bgblack));
         flex-direction: column;
         justify-content: center;
-        padding: 70px 20px;
+        padding: 30px 20px 0px 20px;
+        margin-bottom: 80px;
     }
     .home-image {
         width: 340px;
@@ -158,7 +159,7 @@
     }
 
     .home-about {
-        padding: 50px 60px 70px 60px;
+        padding: 35px 60px;
         width: 100%;
         display: flex;
         flex-direction: column;

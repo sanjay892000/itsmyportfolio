@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './reviews.css'
 import SocialLogin from '../modal/SocialLogin';
+import ReviewCard from './reviewcard/ReviewCard';
 
+
+
+const OPTIONS = { loop: true }
 function Reviews() {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
@@ -17,7 +21,7 @@ function Reviews() {
                 <h1>write <span>Reviews</span></h1>
                 <h2 className='resume'>Reviews</h2>
             </div>
-            {/* <SocialLogin handleClose={handleClose} open={open}/> */}
+           {/*  <SocialLogin handleClose={handleClose} open={open}/> */}
         </section>
     )
 }

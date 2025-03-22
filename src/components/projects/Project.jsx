@@ -1,7 +1,7 @@
 import React from 'react'
 import './project.css'
 import allProject from './projects.json'
-import { Link } from 'react-router-dom'
+import ProjectCard from './projectcard/ProjectCard'
 function Project() {
     return (
         <section id='project-section'>
@@ -12,15 +12,7 @@ function Project() {
             <div className="project-container">
                 {allProject.map((project, i) => {
                     return (
-                        <Link to={`/project/${project.id}`} key={i} className="project-card">
-                            <div className="project-image">
-                                <img src={project.image} alt="loading..." />
-                            </div>
-                            <div className="project-info">
-                                <h1>{project.name}</h1>
-                                <p>{project.description}</p>
-                            </div>
-                        </Link>
+                        <ProjectCard key={i} id={project.id} image={project.image} name={project.name} description={project.description} />
                     )
                 })}
             </div>

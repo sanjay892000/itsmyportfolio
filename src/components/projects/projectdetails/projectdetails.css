@@ -5,10 +5,18 @@
 .subproject-card{
     width: 30%;
     color: var(--textcolor);
-    background-color: var(--bggraytransparent);
+    background-color: var(--bggray);
     border: 1px solid var(--bggray);
-    text-align: center;
     border-radius: 10px;
+    &:hover > .subproject-image> img{
+        transform: scale(1.03);
+    }
+    &:hover .subproject-info{
+        background-color: var(--bggraytransparent);
+    }
+    &:hover .subproject-info>h1{
+        color: var(--bgorange);
+    }
 }
 .subproject-image{
     position: relative;
@@ -39,23 +47,36 @@
     color: var(--textcolor);
 }
 .subproject-image>img{
-    height: 150px;
+    height: 160px;
     width:100%;
     object-fit: cover;
     object-position: top center;
     border-radius: 10px 10px 0px 0px;
+    transition: all 0.2s linear;
 }
+
 .subproject-info{
     padding: 10px 20px;
+    position: relative;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        background-color: var(--bgorange);
+    }
 }
 .subproject-info>h1{
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin: 15px 0px 5px 0px;
     text-transform: capitalize;
 }
 .subproject-info>p{
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 1.4;
     text-transform: capitalize;
 }
 
