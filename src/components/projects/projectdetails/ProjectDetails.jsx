@@ -11,7 +11,7 @@ function ProjectDetails() {
     let mypro;
     allProject.forEach((value) => {
       if (value.id === parseInt(id)) {
-        mypro = value.name
+        mypro = value.category_name
       }
     })
     setProjectName(mypro)

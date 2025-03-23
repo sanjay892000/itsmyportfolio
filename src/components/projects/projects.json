@@ -1,7 +1,7 @@
 [
     {
         "id": 1001,
-        "name": "HTML & CSS",
+        "category_name": "HTML & CSS",
         "description": "A project focused on elegant layouts and responsive design using only HTML and CSS.",
         "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/html-icon_juhnij.png",
         "project":[
@@ -78,8 +78,8 @@
             }
             ,{
                 "projectid": 1000011,
-                "name": "digital clock with animation",
-                "description": "A digital clock with animation is a fun project! You can build it using HTML for structure, CSS for styling and animations.",
+                "name": "analog clock with animation",
+                "description": "A analog clock with animation is a fun project! You can build it using HTML for structure, CSS for styling and animations.",
                 "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_013712_o6u4tk.png",
                 "source_code":"https://github.com/sanjay892000/css_project/tree/main/clock_self",
                 "live_link":"https://mysclocks.netlify.app/"
@@ -116,31 +116,162 @@
     },
     {
         "id": 1002,
-        "name": "javaScript",
+        "category_name": "javaScript",
         "description": "A dynamic web project powered by JavaScript, delivering interactive features and seamless user experiences.",
         "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/js-icon_cudtje.png",
         "project":[
             {
-               
-            },{}
+                "projectid": 2000001,
+                "name": "color switcher project",
+                "description": "A simple and interactive color switcher built using JavaScript, allowing users to change the background color with a click.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_190046_zzlbw2.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/color_switcher",
+                "live_link":"https://itscolorswitchers.netlify.app/"
+            },{
+                "projectid": 2000002,
+                "name": "random color generator",
+                "description": "A fun and interactive project that generates random colors at the click of a button using JavaScript.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_135205_jbzawg.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/random_color_generator",
+                "live_link":"https://hexcolorcodegen.netlify.app/"
+            },{
+                "projectid": 2000003,
+                "name": "body mass index calculator",
+                "description": "A BMI calculator that lets users input their weight and height to calculate their Body Mass Index. It provides instant feedback and result.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_135844_twwdwo.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/bmi_calculator",
+                "live_link":"https://itsbmicalculator.netlify.app/"
+            },{
+                "projectid": 2000004,
+                "name": "to-do list app",
+                "description": "A simple and interactive to-do list app built with JavaScript, allowing users to add, delete, and mark tasks as complete.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_142304_nzhdxy.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/todo_list",
+                "live_link":"https://itsmytodosapp.netlify.app/"
+            },{
+                "projectid": 2000005,
+                "name": "hearts animation with hover",
+                "description": "A playful hearts animation created with HTML, CSS, and js. When hovered, the generates random size hearts.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_4_mrwifg.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/heart_animation",
+                "live_link":"https://itsheartanimation.netlify.app/"
+            },{
+                "projectid": 2000006,
+                "name": "stopwatch with js",
+                "description": "A functional stopwatch built with JavaScript, featuring start, stop, and reset buttons.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_140952_lqoer0.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/stop_watch",
+                "live_link":"https://itstopwatch.netlify.app/"
+            },{
+                "projectid": 2000007,
+                "name": "giveaway countdown timer",
+                "description": "A dynamic countdown timer built with JavaScript, perfect for tracking time until a giveaway ends.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_141517_qrsrgc.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/countdown_clock",
+                "live_link":"https://itscountdownclock.netlify.app/"
+            },{
+                "projectid": 2000008,
+                "name": "a digital clock with js",
+                "description": "A sleek digital clock built with JavaScript, displaying the current time in hours, minutes, and seconds.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_192649_sgsjtd.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/digital_clock",
+                "live_link":"https://itsdigitalclocks.netlify.app/"
+            },{
+                "projectid": 2000009,
+                "name": "math quiz game",
+                "description": "A fun and interactive math quiz game that challenges users with random questions. It updates the score in real-time.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_184437_kmlmd6.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/verification_with_ans",
+                "live_link":"https://playwithmath.netlify.app/"
+            },{
+                "projectid": 2000010,
+                "name": "github user data fetcher",
+                "description": "A web app that fetches and displays GitHub user data using the Fetch API. It shows profile details username, bio, image etc.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_142859_q6gap9.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/github",
+                "live_link":"https://fetchourgitdata.netlify.app/"
+            },{
+                "projectid": 2000011,
+                "name": "weather app with js",
+                "description": " A sleek weather app that fetches real-time weather data using an API. It displays temperature, conditions, and location, showcasing API integration.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_183620_ioc5v9.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/weather_app",
+                "live_link":"https://itsmyweatherapp.netlify.app/"
+            },{
+                "projectid": 2000012,
+                "name": "unsplash image search app",
+                "description": "A dynamic image search app that fetches stunning photos from the Unsplash API. It allows users to search and browse high-quality images.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_183814_a3gmqu.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/unsplash_image",
+                "live_link":"https://itsunsplashimage.netlify.app/"
+            },{
+                "projectid": 2000013,
+                "name": "music player app",
+                "description": " A fully functional music player app built with JavaScript, featuring play, pause, next, and previous controls.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_185344_axpodv.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/music_player",
+                "live_link":"https://itsmusicplayerapp.netlify.app/"
+            },{
+                "projectid": 2000014,
+                "name": "rest countries explorer app",
+                "description": "A comprehensive web app that fetches and displays data from the REST Countries API. It showcases details like population, region, languages, and flags for each country, with features like search, filter, and dark mode.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_185621_guevfy.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/restcountry",
+                "live_link":"https://itsrestcountry.netlify.app/"
+            },{
+                "projectid": 2000015,
+                "name": "hexagon hover hnimation effect",
+                "description": "A stylish hexagon animation effect created with HTML and CSS, where hexagons respond to hover with smooth transitions, color changes, or scale effects.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-23_190932_zuhwig.png",
+                "source_code":"https://github.com/sanjay892000/javaSrcipt_Project/tree/main/animation_effect",
+                "live_link":"https://hexagoneffectanimation.netlify.app/"
+            }
         ]
     },
     {
         "id": 1003,
-        "name": "React",
+        "category_name": "React",
         "description": "A modern React project showcasing reusable components, state management, and seamless UI updates.",
         "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/react-icon_pfsnnt.png",
         "project":[
-            {},{}
+            {
+                "projectid": 3000001,
+                "name": "a basic simple page",
+                "description": "Grandma's Secret Apple Pie page can be styled using the margin, padding, and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/ygo7mudhysdvhfrkb2aw.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/page",
+                "live_link":"https://itsbasicpage.netlify.app/"
+            },{
+                "projectid": 3000002,
+                "name": "profile page",
+                "description": "profile page can be styled using the margin, padding, display and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/p3sljmcvctbt9ieuqomr.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/portfolio_page",
+                "live_link":"https://itsprofilepage.netlify.app/"
+            }
         ]
     },
     {
         "id": 1004,
-        "name": "Node",
+        "category_name": "Node",
         "description": "Built with Node.js to handle data processing, API requests, and real-time server communication.",
         "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/nodejs-logo_ixnjnm.png",
         "project":[
-            {},{}
+            {
+                "projectid": 4000001,
+                "name": "a basic simple page",
+                "description": "Grandma's Secret Apple Pie page can be styled using the margin, padding, and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/ygo7mudhysdvhfrkb2aw.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/page",
+                "live_link":"https://itsbasicpage.netlify.app/"
+            },{
+                "projectid": 4000002,
+                "name": "profile page",
+                "description": "profile page can be styled using the margin, padding, display and text/font CSS properties.",
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/p3sljmcvctbt9ieuqomr.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/portfolio_page",
+                "live_link":"https://itsprofilepage.netlify.app/"
+            }
         ]
     }
 ]

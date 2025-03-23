@@ -12,7 +12,7 @@ function Project() {
             <div className="project-container">
                 {allProject.map((project, i) => {
                     return (
-                        <ProjectCard key={i} id={project.id} image={project.image} name={project.name} description={project.description} />
+                        <ProjectCard key={i} id={project.id} image={project.image} name={project.category_name} description={project.description} />
                     )
                 })}
             </div>

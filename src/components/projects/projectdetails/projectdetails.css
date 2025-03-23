@@ -9,7 +9,7 @@
     border: 1px solid var(--bggray);
     border-radius: 10px;
     &:hover > .subproject-image> img{
-        transform: scale(1.03);
+        transform: scale(1.05);
     }
     &:hover .subproject-info{
         background-color: var(--bggraytransparent);
@@ -19,14 +19,33 @@
     }
 }
 .subproject-image{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: radial-gradient(circle,transparent, rgb(50, 50, 50));
+        z-index: 50;
+    }
+
     &:hover .previewbtn{
         transform:scale(1) translateX(0px) rotateY(0deg);
     }
+}
+.subproject-image>img{
+    height: 160px;
+    width:100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.2s linear;
 }
 .previewbtn{
     position: absolute;
@@ -45,14 +64,6 @@
     border-radius: 20px;
     text-decoration: none;
     color: var(--textcolor);
-}
-.subproject-image>img{
-    height: 160px;
-    width:100%;
-    object-fit: cover;
-    object-position: top center;
-    border-radius: 10px 10px 0px 0px;
-    transition: all 0.2s linear;
 }
 
 .subproject-info{

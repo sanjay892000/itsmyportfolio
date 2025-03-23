@@ -1,5 +1,4 @@
 import React from 'react'
-import './projectdetailscard.css'
 function ProjectDetailsCard(props) {
 
     const {name, description, image, livelink} = props;
