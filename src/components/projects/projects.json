@@ -65,9 +65,9 @@
                 "projectid": 1000009,
                 "name": "animation effects",
                 "description": "A collection of fun and creative animation effects designed for students to practice animation. These effects to help build hands-on skills in web development.",
-                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/lightbox-icon_l987v6.png",
-                "source_code":"https://github.com/sanjay892000/css_project/tree/main/login_animation",
-                "live_link":"https://itsloginpage.netlify.app/"
+                "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/Screenshot_2025-03-24_230349_alwvnp.png",
+                "source_code":"https://github.com/sanjay892000/css_project/tree/main/transition_effects",
+                "live_link":"https://itstransition-effects.netlify.app/"
             },{
                 "projectid": 1000010,
                 "name": "login page with animation",
@@ -236,7 +236,7 @@
         "project":[
             {
                 "projectid": 3000001,
-                "name": "a basic simple page",
+                "name": "",
                 "description": "Grandma's Secret Apple Pie page can be styled using the margin, padding, and text/font CSS properties.",
                 "image": "https://res.cloudinary.com/dl5dzguzy/image/upload/htmlCSS/ygo7mudhysdvhfrkb2aw.png",
                 "source_code":"https://github.com/sanjay892000/css_project/tree/main/page",

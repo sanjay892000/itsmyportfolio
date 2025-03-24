@@ -6,7 +6,7 @@ function ProjectDetailsCard(props) {
         <div className="subproject-card">
             <div className="subproject-image">
                 <img src={image} alt="loading..." />
-                <div className='previewbtn'><a href={livelink}>Preview</a></div>
+                <div className='previewbtn'><a href={livelink} target='_blank'>Preview</a></div>
             </div>
             <div className="subproject-info">
                 <h1>{name}</h1>
