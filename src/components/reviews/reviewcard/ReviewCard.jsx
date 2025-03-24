@@ -1,16 +1,18 @@
 import React from 'react'
 import './reviewcard.css'
-function ReviewCard() {
+function ReviewCard(props) {
+
+    const {name, reviews, image} = props
     return (
         <div className="testimonial">
             <span className="open quote">“</span>
             <div className="image">
                 <div className="clip"></div>
-                <img src="https://placehold.co/100" />
+                <img src={image} />
             </div>
-            <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+            <p>{reviews}</p>
             <div className="source">
-                <span>Testimonial Source</span>
+                <span>{name}</span>
             </div>
             <span className="close quote">”</span>
         </div>

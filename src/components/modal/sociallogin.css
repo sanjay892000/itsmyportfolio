@@ -54,10 +54,17 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: var(--lightblack);
+    color: var(--textcolor);
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+    transition: all 0.3s linear;
+    &:hover{
+        background-color: var(--bgorange);
+        color: black;
+    }
 }
 .social-logo-modal{
     position: relative;
