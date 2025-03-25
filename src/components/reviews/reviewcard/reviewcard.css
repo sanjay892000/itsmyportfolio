@@ -32,3 +32,19 @@
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    .testimonial {
+        width: 65%;
+        max-width: 100%;
+        min-height: 300px;
+        height: auto;
+    } 
+}
+
+
+@media screen and (max-width: 640px) {
+    .testimonial {
+        width: 100%;
+    }
+}
