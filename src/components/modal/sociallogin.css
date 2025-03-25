@@ -30,6 +30,7 @@
     font-size: 18px;
     font-weight: 500;
     padding-top: 10px;
+    text-align: center;
 }
 .close-modal{
     position: absolute;
@@ -70,4 +71,11 @@
     position: relative;
     top: 3px;
     padding-right: 10px;
+}
+
+@media screen and (max-width:640px) {
+    .modal-container{
+        width: 80%;
+        padding:40px 20px;
+    }
 }
