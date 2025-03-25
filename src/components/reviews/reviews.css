@@ -1,4 +1,14 @@
-.reviews-container{
-    padding-top: 30px;
+@media screen and (max-width:640px) {
+    #reviews-section{
+        padding: 20px 0px;
 
+    }
+    
+    .reviews-container{
+        margin-top: 10px;
+        height: calc(100vh - 200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

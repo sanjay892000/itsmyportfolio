@@ -6,14 +6,7 @@ function ReviewCard(props) {
     return (
         <div className="testimonial">
             <span className="open quote">“</span>
-            <div className="image">
-                <div className="clip"></div>
-                <img src={image} />
-            </div>
-            <p>{reviews}</p>
-            <div className="source">
-                <span>{name}</span>
-            </div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde esse eum dolorem minus nisi? Labore similique nisi aliquid tempora accusamus, cum ex. Cum voluptas iste minima similique laborum est culpa autem nesciunt sequi architecto itaque qui, omnis, excepturi error impedit dicta, voluptate amet? Non vero rerum explicabo voluptatem dolor voluptate?
             <span className="close quote">”</span>
         </div>
     )
