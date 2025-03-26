@@ -1,3 +1,10 @@
+#reviews-section{
+    width: 100vw;
+    background-color: var(--bgblack);
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
 .reviews-card-container {
     display: flex;
     justify-content: flex-end;
@@ -43,7 +50,8 @@
     }
 
     .reviews-card-container {
-        padding: 0px 30px;
+        padding-right: 40px;
+        padding-left: 0px;
     }
 
     .add-reviews {
