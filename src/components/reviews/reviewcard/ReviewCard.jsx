@@ -6,27 +6,27 @@ function ReviewCard(props) {
     return (
         <div className="testimonial">
             <span className="open quote">“</span>
-            <div class="testimonial-box">
-                <div class="box-top">
-                    <div class="profile">
-                        <div class="profile-img">
+            <div className="testimonial-box">
+                <div className="box-top">
+                    <div className="profile">
+                        <div className="profile-img">
                             <img src={image} />
                         </div>
-                        <div class="name-user">
+                        <div className="name-user">
                             <strong>{name}</strong>
                             <span>@touseeqijazweb</span>
                             <span id='reviews-date'>02/03/2025 12:25</span>
                         </div>
                     </div>
-                    <div class="reviews">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                    <div className="reviews">
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="far fa-star"></i>
                     </div>
                 </div>
-                <div class="client-comment">
+                <div className="client-comment">
                     <p>{reviews}</p>
                 </div>
             </div>

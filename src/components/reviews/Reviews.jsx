@@ -51,7 +51,7 @@ function Reviews() {
             </div>
             <div className="reviews-card-container">
                 <Link to="feedback" onClick={handleOpen} className="add-reviews">
-                    <i class="fa-solid fa-plus"></i>
+                    <i className="fa-solid fa-plus"></i>
                 </Link>
             </div>
         </section>
