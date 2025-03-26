@@ -1,5 +1,6 @@
 #project-section {
     width: 100vw;
+    min-height: 100vh;
     padding: 30px 130px 100px 70px;
     background-color: var(--bgblack);
     max-width: 1500px;
