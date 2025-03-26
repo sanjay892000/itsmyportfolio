@@ -17,6 +17,7 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
+    text-decoration: none;
 }
 
 @media screen and (max-width:1000px) {

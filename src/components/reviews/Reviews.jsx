@@ -3,6 +3,8 @@ import './reviews.css'
 import SocialLogin from '../modal/SocialLogin';
 import ReviewCard from './reviewcard/ReviewCard';
 import ReviewCarousel from './review-carousel/ReviewCarousel';
+import { Link, Outlet } from 'react-router-dom';
+import { useStateContext } from '../../contextapi/stateContext';
 
 
 const OPTIONS = { loop: true }
@@ -31,9 +33,7 @@ const SLIDES = [{
 }]
 
 function Reviews() {
-    const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+    const { open, handleOpen, handleClose } = useStateContext()
 
     useEffect(() => {
         handleOpen();
@@ -45,14 +45,14 @@ function Reviews() {
                 <h1>write <span>Reviews</span></h1>
                 <h2 className='resume'>Reviews</h2>
             </div>
-             <SocialLogin handleClose={handleClose} open={open} />
+            <Outlet />
             <div className="reviews-container">
                 <ReviewCarousel slides={SLIDES} options={OPTIONS} />
             </div>
             <div className="reviews-card-container">
-                <div className="add-reviews">
+                <Link to="feedback" onClick={handleOpen} className="add-reviews">
                     <i class="fa-solid fa-plus"></i>
-                </div>
+                </Link>
             </div>
         </section>
     )

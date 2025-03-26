@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './navbar.css'
-import { useThemeContext } from '../../contextapi/themeContext'
+import { useStateContext } from '../../contextapi/stateContext'
 function Navbar() {
 
-  const { theme, lightMode, darkMode } = useThemeContext()
+  const { theme, lightMode, darkMode } = useStateContext()
 
   const toggleModeFun = () => {
     theme === 'light' ? darkMode() : lightMode()
