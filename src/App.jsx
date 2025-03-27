@@ -18,7 +18,7 @@ import ReviewsModal from './components/modal/ReviewsModal';
 
 function App() {
 
-  const { theme, open, handleClose } = useStateContext()
+  const { theme } = useStateContext()
   useEffect(() => {
     const htmlTag = document.querySelector('body');
     htmlTag.classList.remove('light', 'dark');

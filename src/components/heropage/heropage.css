@@ -216,6 +216,7 @@
 @media screen and (max-width:640px) {
     #main-section {
         padding: 40px 20px;
+        margin-bottom: 30px;
     }
     .home-image {
         width: 280px;

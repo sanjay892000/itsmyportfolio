@@ -12,7 +12,7 @@
     background-color:transparent;
      margin: auto;
      border-radius: 8px;
-     position:relative;
+     position:absolute;
      background-color: var(--bgmodal);
      display: flex;
      flex-direction: column;

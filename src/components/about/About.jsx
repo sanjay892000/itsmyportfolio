@@ -33,11 +33,11 @@ function About() {
           </div>
           <div className="right-info">
             <div className="details-card">
-              <p>02</p>
+              <p>02+</p>
               <h1>years of experience</h1>
             </div>
             <div className="details-card">
-              <p>750</p>
+              <p>243</p>
               <h1>Select Student</h1>
             </div>
           </div>

@@ -3,6 +3,7 @@
     background-color: var(--bgblack);
     max-width: 1500px;
     margin: 0px auto;
+    position: relative;
 }
 
 .reviews-card-container {
