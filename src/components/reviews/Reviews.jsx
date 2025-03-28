@@ -33,7 +33,7 @@ const SLIDES = [{
 }]
 
 function Reviews() {
-    const { open, handleOpen, handleClose } = useStateContext()
+    const { handleOpen } = useStateContext()
 
     useEffect(() => {
         handleOpen();
